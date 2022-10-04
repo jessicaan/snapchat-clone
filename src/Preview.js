@@ -12,7 +12,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { resetCameraImage, selectCameraImage } from "./features/cameraSlice";
-import "./Preview.css";
+import "./styles/Preview.css";
 import { db, storage } from "./firebase";
 import { v4 as uuid } from "uuid";
 import { ref, uploadString } from "firebase/storage";

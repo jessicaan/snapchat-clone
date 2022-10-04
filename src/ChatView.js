@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import "./ChatView.css";
+import "./styles/ChatView.css";
 import { selectSelectedImage } from "./features/appSlice";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 

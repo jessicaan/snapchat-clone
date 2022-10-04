@@ -4,7 +4,7 @@ import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import { useDispatch } from "react-redux";
 import { setCameraImage } from "./features/cameraSlice";
 import { useNavigate } from "react-router-dom";
-import "./WebcamCapture.css";
+import "./styles/WebcamCapture.css";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 
 const videoConstraints = {

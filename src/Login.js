@@ -3,7 +3,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { logIn } from "./features/appSlice";
 import { auth, provider } from "./firebase";
-import "./Login.css";
+import "./styles/Login.css";
 
 function Login() {
   const dispatch = useDispatch();

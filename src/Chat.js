@@ -1,6 +1,6 @@
 import { Avatar } from "@material-ui/core";
 import React from "react";
-import "./Chat.css";
+import "./styles/Chat.css";
 import StopRoundedIcon from "@mui/icons-material/StopRounded";
 import ReactTimeago from "react-timeago";
 import buildFormatter from "react-timeago/lib/formatters/buildFormatter";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
-import "./App.css";
+import "./styles/App.css";
 import Preview from "./Preview";
 import Chats from "./Chats";
 import WebcamCapture from "./WebcamCapture";
